@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+  }
+  
+  /* Container styles */
+  .member-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f0f0; /* Light gray */
+    color: #333; /* Dark gray */
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #ddd; /* Lighter gray on hover */
+  }
+  
+  /* Member card styles */
+  .member-card {
+    background-color: #fff; /* White background for member cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .member-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .member-card input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .member-card input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .member-card input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .member-card p {
+    margin: 5px 0;
+  }
+  
+  /* QR code styles */
+  .qr-code {
+    margin-top: 10px;
+  }
+  
+  /* Edit and delete button styles */
+  .member-card button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc; /* Light gray */
+    color: #333; /* Dark gray */
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .member-card button:hover {
+    background-color: #ddd; /* Lighter gray on hover */
+  }
